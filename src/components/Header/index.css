@@ -1,0 +1,31 @@
+header {
+  border-bottom: 1px solid var(--primary-blue);
+  height: 60px;
+}
+header img {
+  width: 80px;
+}
+header .container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+header input {
+  width: 630px;
+}
+header .connecting-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+header .filters > div {
+  display: flex;
+  gap: 50px;
+}
+
+.filters > div > input {
+  width: 200px;
+}

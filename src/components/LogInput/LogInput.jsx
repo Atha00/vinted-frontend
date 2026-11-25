@@ -1,0 +1,17 @@
+import "./index.css";
+const LogInput = ({ value, setValue, type, id, placeholder }) => {
+  return (
+    <input
+      type={type}
+      value={value}
+      onChange={(event) => {
+        setValue(event.target.value);
+      }}
+      placeholder={placeholder}
+      id={id}
+      // autocomplete="off"
+    />
+  );
+};
+
+export default LogInput;

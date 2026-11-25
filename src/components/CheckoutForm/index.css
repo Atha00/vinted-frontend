@@ -1,0 +1,36 @@
+.red {
+  color: red;
+}
+
+.payment {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-grey);
+  height: calc(100vh - 60px);
+}
+
+.payment form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+.payment form section {
+  background-color: white;
+}
+
+.payment form section > div {
+  padding: 20px;
+  border-bottom: 1px solid var(--primary-grey);
+}
+.payment form div > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.StripeElement {
+  width: 100%;
+}

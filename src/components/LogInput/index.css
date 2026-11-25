@@ -1,0 +1,9 @@
+.login,
+.signup {
+  .container form input:not([type="checkbox"]) {
+    margin-bottom: 20px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #fcced3;
+  }
+}

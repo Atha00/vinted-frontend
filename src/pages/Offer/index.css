@@ -1,0 +1,70 @@
+.offer {
+  background-color: var(--primary-grey);
+  height: calc(100vh - 60px);
+  padding-top: 30px;
+}
+
+.offer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.offer > .container > img {
+  height: 600px;
+}
+
+.offer aside {
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  padding: 40px;
+}
+
+.offer aside img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.offer aside .top-aside {
+  border-bottom: 1px solid var(--primary-grey);
+  padding-bottom: 20px;
+  height: 40%;
+}
+
+.offer .top-aside > p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.offer .top-aside > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.offer h1 {
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.offer .bottom-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+
+.offer .bottom-aside button {
+  margin-top: 32px;
+  width: 100%;
+}
+
+.offer .bottom-aside .owner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.offer .bottom-aside > p {
+  margin-bottom: 10px;
+}
